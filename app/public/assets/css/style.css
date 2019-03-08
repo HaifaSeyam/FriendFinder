@@ -59,5 +59,17 @@ form#nameImg {
     font-size: 25px;
 }
 
+#modalHeader, #userMatch {
+    text-align: center;
+}
+
+#userMatch {
+    color: maroon
+}
+
+#userMatchImage {
+    width: 600px;
+    height: 400px;
+}
 
 

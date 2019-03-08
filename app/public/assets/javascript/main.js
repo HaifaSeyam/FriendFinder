@@ -3,6 +3,9 @@ $(document).ready(function(){ //Start of Document Ready Function
   //Parallax Initialization
   $(".parallax").parallax();
 
+  $(".modal").modal();
+
+
   var options = ["1 (Strongly Disagree)", "2", "3", "4", "5 (Strongly Agree)"];
   //For loop to fill the select form options
   for (var i = 0 ; i < options.length ; i++) {
@@ -86,6 +89,10 @@ function validation() {
 
         $.post("api/friends", friend,
           function(data) {
+            $("#userMatch").html(data.matchName);
+		    	  $("#userMatchImage").attr("src", data.matchImage);
+		      	//open the modal
+            $("#modal1").modal("open");
 
             // Clear the form when submitting
             $("#userName").val("");

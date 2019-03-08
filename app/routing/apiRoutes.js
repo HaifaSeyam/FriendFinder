@@ -21,7 +21,7 @@ module.exports = function(app) {
 
   app.post("/api/friends", function(req, res) {
 
-       //claculations goes here
+       //calculations goes here 
   });
 
  };
