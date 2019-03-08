@@ -1,0 +1,63 @@
+body {
+    width: 100%;
+    font-family: 'Playfair Display', serif;
+    font-family: 'KoHo', sans-serif;
+}
+
+#navBar {
+    background-color:black;
+    margin: 0 auto;
+}
+
+#logo {
+    width: 120px;
+    height: 120px;
+    border: 2px solid black;
+}
+
+.fa-facebook, .fa-twitter, .fa-youtube {
+    color: white;
+  }
+
+  .parallax-container {
+      height: 400px;
+  }
+
+  .container {
+      width: 90%;
+      margin-top: 20px;
+  }
+
+ p.homePara {
+     text-align: center;
+     font-size: 25px;
+     margin-top: 50px;
+     margin-left: 50px;
+ }
+
+ h3, h2{
+     text-align: center;
+ }
+
+ .surveyBtn {
+     background-color: black;
+     text-align: center;
+     font-size: 25px;
+    }
+
+a.aBtn, a.submitBtn{
+    color: white;
+}
+
+form#nameImg {
+    font-size: 20px;
+}
+
+#errorDiv {
+    display: none;
+    color: red;
+    font-size: 25px;
+}
+
+
+

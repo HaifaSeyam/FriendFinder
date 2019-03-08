@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Home | Friend Finder</title>
+        <link rel="icon" type="image/ico" href="assets/images/logo.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- materialize css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <!--Main Css File-->
+        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css"/> 
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!--Icons Library-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--Fonts Library-->
+        <link href="https://fonts.googleapis.com/css?family=KoHo|Playfair+Display" rel="stylesheet">
+    </head>
+
+    <body>
+        <!--Start Fixed NavBar-->
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper" id="navBar">
+                    <!--centered Logo-->
+                    <a href="home.html" class="brand-logo center"><img src="assets/images/logo.jpg" alt="logo" id="logo" class="circle responsive-img"></a>
+                    <!--Left Side of the NavBar-->
+                    <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <li><a href="api/friends">API Friends List</a></li>
+                        <li><a href="https://github.com/HaifaSeyam/FriendFinder.git">GitHub Repo</a></li>
+                    </ul>
+                    <!--Right Side of the NavBar-->
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="index.html"><i class="material-icons">search</i></a></li>
+                        <li><a href="index.html" class="fa fa-facebook"></a></li>
+                        <li><a href="index.html" class="fa fa-twitter"></a></li>
+                        <li><a href="index.html" class="fa fa-youtube"></a></li>
+                    </ul>
+
+                </div>
+            </nav>
+        </div>
+        <!--End Fixed NavBar-->
+        <!--Start top parallax-->
+        <div class="parallax-container center valign-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 white-text">
+                        <h1>Friend Finder</h1>
+                        <h5>Fun Place to Be if You’re in the Mood for Fun</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="parallax"><img src="assets/images/parallax1.jpg"></div>
+        </div>
+        <!--End top parallax-->
+        <!--Start first section (food section)-->
+        <div class="section white container">
+            <div class="row">
+                <div class="col s8">
+                    <p class="text-darken-3 lighten-3 homePara">
+                        Friend Finder is an online service to help you meet new people from your neighborhood or from
+                         around the world.
+                    </p>
+                    <h3> For Free ... No Need to Sign Up</h3>
+                </div>
+                <div class="col s4">
+                    <img class="responsive-img friends" src="assets/images/friends01.jpg">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s4 foodDiv">
+                    <img class="responsive-img friends" src="assets/images/friends02.jpg">
+                </div>
+                <div class="col s8 contentDiv">
+                    <p class="text-darken-3 lighten-3 homePara">
+                        To find your best friend match, all what you need to do is to fill out a survey of 10 questions
+                        and we will do the rest for you!
+                        
+                        Once you find your match, you can send him/her a message introducing yourself, and then take your friendship from there!
+                    </p>
+                </div>
+                <div class="col s3 offset-s9">
+                    <button class="btn surveyBtn" type="survey" name="action"><a href="survey.html" class="aBtn">Go to Survey!</a>
+                        <i class="material-icons right">send</i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!--End first section (food section)-->
+           
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <!-- materialize JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <!--Main Javascript File-->
+        <script src="assets/javascript/main.js"></script>
+    </body>
+  </html>

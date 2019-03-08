@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Survey | Friend Finder</title>
+        <link rel="icon" type="image/ico" href="assets/images/logo.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- materialize css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <!--Main Css File-->
+        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css"/> 
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!--Icons Library-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--Fonts Library-->
+        <link href="https://fonts.googleapis.com/css?family=KoHo|Playfair+Display" rel="stylesheet">
+    </head>
+
+    <body>
+        <!--Start Fixed NavBar-->
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper" id="navBar">
+                    <!--centered Logo-->
+                    <a href="home.html" class="brand-logo center"><img src="assets/images/logo.jpg" alt="logo" id="logo" class="circle responsive-img"></a>
+                    <!--Left Side of the NavBar-->
+                    <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <li><a href="api/friends">API Friends List</a></li>
+                        <li><a href="https://github.com/HaifaSeyam/FriendFinder.git">GitHub Repo</a></li>
+                    </ul>
+                    <!--Right Side of the NavBar-->
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="home.html"><i class="material-icons">search</i></a></li>
+                        <li><a href="home.html" class="fa fa-facebook"></a></li>
+                        <li><a href="home.html" class="fa fa-twitter"></a></li>
+                        <li><a href="home.html" class="fa fa-youtube"></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!--End Fixed NavBar-->
+        <!--Start top parallax-->
+        <div class="parallax-container center valign-wrapper">
+            <div class="parallax"><img src="assets/images/parallax2.jpg"></div>
+        </div>
+        <!--End top parallax-->
+        <!--Start first section (food section)-->
+        <div class="section white container">
+            <div class="row">
+                <div class="col s12">
+                    <h2>Survey Questions</h2> 
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 contentDiv">
+                    <form id="surveyForm">
+                        <h4>About You<h4>
+                        <h6>Name (Required)</h6>
+                        <input class="nameImgInput" id="userName" type="text" name="name" placeholder="Your Name" required><br>
+                        <h4>Link to Photo Image (Required)</h4>
+                        <input class="nameImgInput" id="userImg" type="text" name="photoImg" placeholder="Link to Your Photo" required><br>
+                    
+                        <div class="col s12 questionsDiv">
+                            <h5>01. I love large parties.</h5>
+                            <div class="input-field col s12 m6 optionsDiv">
+                                <select id="q1" class="options" required class="validate">
+                                    <option value="" disabled selected>Choose your options</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col s12 questionsDiv">
+                            <h5>02. I trust others.</h5>
+                            <div class="input-field col s12 m6 optionsDiv">
+                                <select id="q2" class="options" required class="validate">
+                                    <option value="" disabled selected>Choose your options</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col s12 questionsDiv">
+                            <h5>03. I am easy to satisfy.</h5>
+                            <div class="input-field col s12 m6 optionsDiv">
+                                <select id="q3" class="options" required class="validate">
+                                    <option value="" disabled selected>Choose your options</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col s12 questionsDiv">
+                            <h5>04. I go straight for the goal.</h5>
+                            <div class="input-field col s12 m6 optionsDiv">
+                                <select id="q4" class="options" required class="validate">
+                                    <option value="" disabled selected>Choose your options</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col s12 questionsDiv">
+                            <h5>05. I avoid mistakes.</h5>
+                            <div class="input-field col s12 m6 optionsDiv">
+                                <select id="q5" class="options" required class="validate">
+                                    <option value="" disabled selected>Choose your options</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col s12 questionsDiv">
+                            <h5>06. I fear for the worst.</h5>
+                            <div class="input-field col s12 m6 optionsDiv">
+                                <select id="q6" class="options" required class="validate">
+                                    <option value="" disabled selected>Choose your options</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col s12 questionsDiv">
+                            <h5>07. I don't know why I do some of the things I do.</h5>
+                            <div class="input-field col s12 m6 optionsDiv">
+                                <select id="q7" class="options" required class="validate">
+                                    <option value="" disabled selected>Choose your options</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col s12 questionsDiv">
+                            <h5>08. I become overwhelmed by events.</h5>
+                            <div class="input-field col s12 m6 optionsDiv">
+                                <select id="q8" class="options" required class="validate">
+                                    <option value="" disabled selected>Choose your options</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col s12 questionsDiv">
+                            <h5>09. I love to read challenging material.</h5>
+                            <div class="input-field col s12 m6 optionsDiv">
+                                <select id="q9" class="options" required class="validate">
+                                    <option value="" disabled selected>Choose your options</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col s12 questionsDiv">
+                            <h5>10. I believe that there is no absolute right and wrong.</h5>
+                            <div class="input-field col s12 m6 optionsDiv">
+                                <select id="q10" class="options" required class="validate">
+                                    <option value="" disabled selected>Choose your options</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col s3 offset-s9">
+                            <button class="btn submitBtn" type="submit" name="action">Submit
+                                <i class="material-icons right">send</i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col s12" id="errorDiv">
+                    <h1>Please answer all of the questions correctly.</h1>
+                </div>
+            </div>
+        </div>
+           
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <!-- materialize JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <!--Main Javascript File-->
+        <script src="assets/javascript/main.js"></script>
+    </body>
+  </html>
