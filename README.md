@@ -2,7 +2,7 @@
 
 ### Overview
 
-This app will help you to find the friend that best match your personality. All what you need to do is to answer a 10 servey questions. 
+This app will help you to find the friend that best matches your personality. All what you need to do is to answer a 10 survey questions.
 
 Tools used: HTML, CSS, Materialize, JavaScript, JQuery, NodeJS, Express and Heroku.
 
